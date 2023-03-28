@@ -1,0 +1,24 @@
+{
+   "Name": "Graphite_Xu2015",
+   "Category": "negative_electrode_active_material",
+   "Header": {},
+   "Parameters": {
+      "maximum_concentration": 31540,
+      "volume_fraction": 0.7,
+      "volumetric_surface_area": 142372,
+      "density": 1852,
+      "number_of_electrons_transferred": 1,
+      "activation_energy_of_reaction": 4000,
+      "reaction_rate_constant": 1.76e-11,
+      "maximum_lithium_stoichiometry": 0.51873811,
+      "minimum_lithium_stoichiometry": 0.001,
+      "open_circuit_potential": {
+         "function_name": "updateOCPFunc_LiC6_Xu",
+         "argument_list": [
+            "cElectrode",
+            "T",
+            "cmax"
+          ]
+      }
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "Name": "Graphite_Safari2009",
+   "Category": "negative_electrode_active_material",
+   "Header": {},
+   "Parameters": {
+      "maximum_concentration": 30555,
+      "volume_fraction": 0.8,
+      "volumetric_surface_area": 723600,
+      "density": 2240,
+      "number_of_electrons_transferred": 1,
+      "activation_energy_of_reaction": 5000,
+      "reaction_rate_constant": 5.031e-11,
+      "maximum_lithium_stoichiometry": 0.88551,
+      "minimum_lithium_stoichiometry": 0.1429,
+      "open_circuit_potential": {
+         "function_name": "computeOCP_graphite",
+         "argument_list": [
+            "cElectrode",
+            "T",
+            "cmax"
+          ]
+      }
+   }
+}

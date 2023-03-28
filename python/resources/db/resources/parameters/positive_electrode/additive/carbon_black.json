@@ -1,0 +1,11 @@
+{
+   "Name": "carbon_black",
+   "Category": "positive_electrode_additive",
+   "Header": {},
+   "Parameters": {
+      "density": 1800,
+      "specific_heat_capacity": 300,
+      "thermal_conductivity": 0.5,
+      "volume_fraction": 0.03
+   }
+}
