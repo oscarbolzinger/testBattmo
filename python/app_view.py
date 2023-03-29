@@ -2,6 +2,7 @@ import os
 from PIL import Image
 
 import json
+import test_run
 import streamlit as st
 from app_parameter_model import *
 
@@ -229,6 +230,7 @@ class SubmitJob:
 
         self.battmo_file_data = json.dumps(battmo_dict, indent=2)
         self.battmo_file_name = "battmo_input_parameters.json"
+        self.battmo_dict = battmo_dict
 
         self.set_submit_button()
 
@@ -249,6 +251,13 @@ class SubmitJob:
             file_name=self.battmo_file_name,
             mime=self.file_mime_type
         )
+        st.button(
+            label="run test",
+            on_click=test_run.on_click,
+            args=(self.battmo_dict,)
+        )
+
+
 
 
 class LoadImages:
